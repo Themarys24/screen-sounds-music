@@ -59,16 +59,17 @@ gender
 
 💻 How It Works
 
-When you run the application, a menu is displayed in the terminal:
+When you run the application, a menu is displayed in the terminal:  
 
- *** Screen Sounds Musics ***
-1 - Register artist
-2 - Register song
-3 - List songs
-4 - Search songs by artist
-5 - Search data about artist
-9 - Exit
-You can interactively add or retrieve data through this menu.
+ *** Screen Sounds Musics ***  
+1 - Register artist  
+2 - Register song  
+3 - List songs  
+4 - Search songs by artist  
+5 - Search data about artist  
+9 - Exit  
+You can interactively add or retrieve data through this menu.  
+
 
 ---
 
