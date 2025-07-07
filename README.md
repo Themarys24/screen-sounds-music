@@ -1,8 +1,9 @@
+
 **🎵 ScreenSounds Music App**  
 
-A simple console-based Java application that allows users to register music, artists, songs, search songs by artist, and retrieve artist summaries from Wikipedia using an AI-powered API call.
+A simple console-based Java application that allows users to register music, artists, songs, search songs by artist, and retrieve artist summaries from Wikipedia using an AI-powered API call.  
 
-📌 Features
+📌 Features  
 
 ✅ Register music artists with types: SOLO, DUO, BAND
 
@@ -104,19 +105,19 @@ The interactive menu will be shown in the terminal.
 📁 Project Structure
 
 ├── model/
-│   ├── Artist.java
-│   ├── Musics.java
-│   ├── ArtistType.java
-│   └── AI.java
-├── repository/
-│   ├── ArtistRepository.java
-│   ├── MusicsRepository.java
-├── service/
-│   └── ApiConsumption.java
-├── main/
-│   └── Main.java
-├── ScreenSoundsApplication.java
-└── StartupRunner.java
+│   ├── Artist.java  
+│   ├── Musics.java  
+│   ├── ArtistType.java  
+│   └── AI.java  
+├── repository/  
+│   ├── ArtistRepository.java  
+│   ├── MusicsRepository.java  
+├── service/  
+│   └── ApiConsumption.java  
+├── main/  
+│   └── Main.java  
+├── ScreenSoundsApplication.java  
+└── StartupRunner.java  
 
 ---
 
