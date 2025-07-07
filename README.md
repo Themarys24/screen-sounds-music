@@ -80,7 +80,7 @@ Artist summaries are retrieved from the Wikipedia API in plain text format.
 
 Example endpoint used:
 
-`https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro&explaintext&titles={artistName}`
+(https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro&explaintext&titles={artistName})
 
 ---
 
