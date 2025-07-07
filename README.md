@@ -1,5 +1,4 @@
-***🎵 ScreenSounds Music App***
-
+**🎵 ScreenSounds Music App**  
 A simple console-based Java application that allows users to register music, artists, songs, search songs by artist, and retrieve artist summaries from Wikipedia using an AI-powered API call.
 
 📌 Features
@@ -72,7 +71,8 @@ Artist summaries are retrieved from the Wikipedia API in plain text format.
 
 Example endpoint used:
 
-[https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro&explaintext&titles={artistN](https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro&explaintext&titles={artistName})
+`https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro&explaintext&titles={artistName}`
+
 
 ---
 
@@ -94,10 +94,7 @@ The interactive menu will be shown in the terminal.
 ---
 
 📁 Project Structure
-css
-Copiar
-Editar
-screenSounds/
+
 ├── model/
 │   ├── Artist.java
 │   ├── Musics.java
