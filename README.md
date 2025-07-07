@@ -1,7 +1,9 @@
 **🎵 ScreenSounds Music App**  
+
 A simple console-based Java application that allows users to register music, artists, songs, search songs by artist, and retrieve artist summaries from Wikipedia using an AI-powered API call.
 
 📌 Features
+
 ✅ Register music artists with types: SOLO, DUO, BAND
 
 ✅ Register songs with title, artist, and genre
@@ -17,6 +19,7 @@ A simple console-based Java application that allows users to register music, art
 ---
 
 🛠️ Technologies
+
 Java 17+
 
 Spring Boot
@@ -32,6 +35,7 @@ Wikipedia API (via HttpURLConnection)
 ---
 
 🧩 Entities
+
 🎤 Artist
 id (auto-generated)
 
@@ -42,6 +46,7 @@ type: SOLO, DUO, or BAND
 musics: list of songs linked to the artist
 
 🎶 Musics
+
 id (auto-generated)
 
 title
@@ -53,6 +58,7 @@ gender
 ---
 
 💻 How It Works
+
 When you run the application, a menu is displayed in the terminal:
 
  *** Screen Sounds Musics ***
@@ -67,16 +73,17 @@ You can interactively add or retrieve data through this menu.
 ---
 
 🌐 External API
+
 Artist summaries are retrieved from the Wikipedia API in plain text format.
 
 Example endpoint used:
 
 `https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro&explaintext&titles={artistName}`
 
-
 ---
 
 🧪 How to Run
+
 Configure your database in application.properties:
 
 spring.datasource.url=jdbc:postgresql://localhost/screensoundsdb
@@ -113,6 +120,7 @@ The interactive menu will be shown in the terminal.
 ---
 
 🧠 AI Feature
+
 The AI class uses the Wikipedia API to provide a brief summary of the artist entered by the user, giving contextual information and improving the app's experience.
 
 
