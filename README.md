@@ -88,15 +88,17 @@ Example endpoint used:
 
 Configure your database in application.properties:
 
-spring.datasource.url=jdbc:postgresql://localhost/screensoundsdb
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+```
+spring.datasource.url=jdbc:postgresql://localhost/screensoundsdb  
+spring.datasource.username=your_username  
+spring.datasource.password=your_password  
+```
 
 Run PostgreSQL and create a database named screensoundsdb:
-CREATE DATABASE screensoundsdb;
+CREATE DATABASE screensoundsdb;  
 
-Build and run the application:
-./mvnw spring-boot:run
+Build and run the application:  
+./mvnw spring-boot:run  
 
 The interactive menu will be shown in the terminal.
 
